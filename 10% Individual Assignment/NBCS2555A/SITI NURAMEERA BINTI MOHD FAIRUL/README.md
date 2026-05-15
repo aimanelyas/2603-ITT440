@@ -86,7 +86,8 @@ The spike test evaluated the API behavior during sudden traffic increases.
 
 ### Spike Test Result
 
-(PASTE SCREENSHOT HERE LATER)
+<img width="918" height="391" alt="image" src="https://github.com/user-attachments/assets/c314c483-cfc4-45e9-a48b-51638fa4c216" />
+
 
 ### Analysis
 
