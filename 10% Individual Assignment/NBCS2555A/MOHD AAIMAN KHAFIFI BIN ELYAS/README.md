@@ -1,7 +1,7 @@
 
 ![UiTM LOGO](gnuplot/pictures/UITM%20Logo.png)
 
-<div align="centre" style="font-size: 1.17em; font-weight: bold; margin: 0; padding: 2px 0;">CDCS255<div>
+<div style="font-size: 1.17em; font-weight: bold; margin: 0; padding: 2px 0; align: centre">CDCS255<div>
 
 ### BACHELOR OF COMPUTER SCINECE (HONS.) COMPUTER NETWORK
 
