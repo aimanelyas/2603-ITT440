@@ -1,7 +1,8 @@
 
 ![UiTM LOGO](gnuplot/pictures/UITM%20Logo.png)
 
-### CDCS255
+<div align="centre" style="font-size: 1.17em; font-weight: bold; margin: 0; padding: 2px 0;">CDCS255<div>
+
 ### BACHELOR OF COMPUTER SCINECE (HONS.) COMPUTER NETWORK
 
 ### ITT440
@@ -10,25 +11,25 @@
 ### INDIVIDUAL ASSIGMENT
 ### Load, Stress, and Spike Testing: Assessing Application Behavior on The-Internet HerokuApp using Siege and Gnuplot
 
-##### **Student:** Mohd A'aiman Khafifi Bin Elyas
-##### **Student ID:** 2024628922
-##### **Class:** NBCS2555A
-##### **Prepared For:** Shahadan Bin Saad
+**Student:** Mohd A'aiman Khafifi Bin Elyas
+**Student ID:** 2024628922
+**Class:** NBCS2555A
+**Prepared For:** Shahadan Bin Saad
 
 ---
 
 ## 📑 Table of Contents
-1. 📋 [Project Overview](#️-project-overview)
-2. 🎯 [Introduction & Objective](#-introduction--objective)
-3. 🛠️ [Tools & Target Selection](#-tools--target-selection)
-4. 💡 [Performance Testing Hypotheses](#perfomance-testing-hypotheses)
-5. 🧪 [Test Methodology & Enviroment Setup](#-test-methodology--enviroment-setup)
-6. ⚡ [Test Execution](#-test-execution)
-7. 📊 [Data Analysis & Interpretation](#-data-analysis--interpretation)
-8. ⚠️ [Identified Bottlenecks & Failure Points](#-indentified-bottlenecks--failure-points)
-9. 🔍 [Recommendations for Application Optimization](#-recommendations-for-application-optimization)
-10. ✅ [Conclusion](#-conclusion)
-11. 📚 [References](#-references)
+1. 📋 [Project Overview](#️-1-project-overview)
+2. 🎯 [Introduction & Objective](#-2-introduction--objective)
+3. 🛠️ [Tools & Target Selection](#-3-tools--target-selection)
+4. 💡 [Performance Testing Hypotheses](#-4-perfomance-testing-hypotheses)
+5. 🧪 [Test Methodology & Enviroment Setup](#-5-test-methodology--enviroment-setup)
+6. ⚡ [Test Execution](#-6-test-execution)
+7. 📊 [Data Analysis & Interpretation](#-7-data-analysis--interpretation)
+8. ⚠️ [Identified Bottlenecks & Failure Points](#-8-indentified-bottlenecks--failure-points)
+9. 🔍 [Recommendations for Application Optimization](#-9-recommendations-for-application-optimization)
+10. ✅ [Conclusion](#-10-conclusion)
+11. 📚 [References](#-11-references)
 
 ---
 
