@@ -84,9 +84,7 @@ To fulfill the requirements of executing a rigorous, automated performance evalu
 
 &emsp;Prior to executing the test plan, the following theoretical hypotheses were formulated based on standard web application architecture patterns:
 
-- &emsp;Hypothesis 1 (The Normal Page): The standard page will scale linearly. As concurrency increases up to a certain threshold, throughput will rise, and response times will remain low (< 500 ms). A bottleneck is only expected when the Heroku container faces absolute CPU or thread exhaustion.
-
-- &emsp;Hypothesis 2 (The Slow Page): Because the /slow page simulates artificial backend latency, it will hold connection threads open much longer. Under high concurrency, this will trigger thread starvation in the web server. Consequently, the application will experience an early exponential spike in response time and an influx of HTTP 503 Service Unavailable or connection timeout errors during stress and spike conditions.
+- &emsp;Hypothesis: The standard page will scale linearly. As concurrency increases up to a certain threshold, throughput will rise, and response times will remain low (< 500 ms). A bottleneck is only expected when the Heroku container faces absolute CPU or thread exhaustion.
 
 ---
 
@@ -107,7 +105,7 @@ To fulfill the requirements of executing a rigorous, automated performance evalu
 | 🧪 Test Type | ⚡ Concurrency (c) | 📈 Duration | ✅ Key Obejctive |
 |:-----------:|:-----------:|:--------:|:------------------------:|
 | Load Test | Gradual Increase (c = 10 -> 50) | 3 minutes per tier | Evaluate baseline stability under normal, expected operational traffic. |
-| Stress Test | Aggresive Scale (c = 50 -> 200) | 5 minutes continuos | Determine the ultimate breaking point and error generation behavior. |
+| Stress Test | Aggresive Scale (c = 50 -> 250) | 5 minutes continuos | Determine the ultimate breaking point and error generation behavior. |
 | Spike Test | Immediate Surge (c = 10 -> 200 -> 10) | 1 minute interval | Test how rapidly the application recovers from sudden traffic bursts. |
 
 ---
@@ -216,7 +214,7 @@ main/
 └── README.md 
 ```
 
-### 6.6 Step 6: Plot Test Graphs using Gnuplot
+### 6.6 Step 6: Plot Test Charts using Gnuplot
 
 ```bash
 ##execute all the .gp file one at a time
@@ -225,18 +223,18 @@ gnuplot plot_stress_test.gp
 gnuplot plot_spike_test.gp
 ```
 
-All the graphs will be stored in the gnuplot/pictures/ folder.
+All the charts will be stored in the gnuplot/pictures/ folder.
 
-### 6.7 Step 7: View and Analys The Graph
+### 6.7 Step 7: View and Analys The Chart
 
-**Load Test Graph**
-![Load-Test-Graph](gnuplot/pictures/stress_latency_trends.png)
+**Load Test Chart**
+![Load-Test-Chart](gnuplot/pictures/load_test_chart.png)
 
-**Stress Test Graph**
-![Stress-Test-Graph](gnuplot/pictures/stress_latency_trends.png)
+**Stress Test Chart**
+![Stress-Test-Chart](gnuplot/pictures/stress_test_chart.png)
 
-**Spike Test Graph**
-![Spike-Test-Graph](gnuplot/pictures/stress_latency_trends.png)
+**Spike Test Chart**
+![Spike-Test-Chart](gnuplot/pictures/spike_test_chart.png)
 
 ---
 

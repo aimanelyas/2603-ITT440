@@ -1,18 +1,17 @@
-set terminal png size 900,600
-set output "pictures/stress_latency_trends.png"
+set terminal png size 900,550 font "Sans,10"
+set output "pictures/stress_test_chart.png"
 
-set title "Stress Test Latency Escalation: Average vs Max Boundary"
-set xlabel "Measured Target Concurrency (Users)"
-set ylabel "Time Scales (Seconds)"
+set title "Stress Test Evaluation: Latency Degradation & Socket Resets vs Concurrency" font "Sans-Bold,12"
+set xlabel "Measured Application Concurrency (Active Users)" font "Sans-Bold,10"
+set ylabel "Processing Delay Scales (Seconds)" font "Sans-Bold,10"
 
-set grid
+set grid linetype 1 linewidth 0.5 lc rgb "#D3D3D3"
 set datafile separator ","
 
-# Tell Gnuplot to read our custom row 1 headers
-set key autotitle columnhead
 
-# Column 8 = Measured Concurrency (X Axis)
-# Column 5 = Average Response Time (Y Axis)
-# Column 11 = Your newly injected Longest Transaction value (Y Axis)
-plot "../results/stress_test_normal_final.csv" using 8:11 title "Longest Transaction (Normal)" with linespoints lw 2 lc rgb "#4169E1", \
-     "../results/stress_test_normal_final.csv" using 8:5  title "Average Response Time (Normal)" with linespoints lw 2 lc rgb "blue"
+set key box opaque font "Sans,9" top left
+
+# Column 8 = Measured Concurrency (X-axis)
+# Column 5 = Average Response Time, Column 11 = Longest Transaction
+plot "../results/stress_test_final.csv" using 8:5 title "Average Response Time" with linespoints lw 2.5 lc rgb "#4169E1", \
+     "../results/stress_test_final.csv" using 8:11 title "Longest Transaction Boundary" with linespoints lw 2 lc rgb "#DC143C",
