@@ -1,5 +1,5 @@
 
-![UiTM LOGO](uitm.png)
+![UiTM LOGO](gnuplot/pictures/UITM%20Logo.png)
 
 ### CDCS255
 ### BACHELOR OF COMPUTER SCINECE (HONS.) COMPUTER NETWORK
