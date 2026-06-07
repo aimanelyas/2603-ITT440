@@ -3,36 +3,38 @@
 The server is now under siege...
 
 Lifting the server siege...
-Transactions:		         258 hits
+Transactions:		         261 hits
 Availability:		      100.00 %
-Elapsed time:		       59.24 secs
-Data transferred:	       29.52 MB
-Response time:		        2.26 secs
+Elapsed time:		       59.86 secs
+Data transferred:	       30.32 MB
+Response time:		        2.24 secs
 Transaction rate:	        4.36 trans/sec
-Throughput:		        0.50 MB/sec
-Concurrency:		        9.85
-Successful transactions:         258
+Throughput:		        0.51 MB/sec
+Concurrency:		        9.78
+Successful transactions:         261
 Failed transactions:	           0
-Longest transaction:	       11.66
-Shortest transaction:	        0.95
+Longest transaction:	       11.94
+Shortest transaction:	        0.96
  
 ** SIEGE 4.0.7
 ** Preparing 200 concurrent users for battle.
 The server is now under siege...
+[[1;33merror[0m] Failed to make an SSL connection: 5: Connection reset by peer
+[[1;33merror[0m] Failed to make an SSL connection: 5: Connection reset by peer
 
 Lifting the server siege...
-Transactions:		        6153 hits
-Availability:		       99.98 %
-Elapsed time:		       59.98 secs
-Data transferred:	      672.71 MB
-Response time:		        1.90 secs
-Transaction rate:	      102.58 trans/sec
-Throughput:		       11.22 MB/sec
-Concurrency:		      195.35
-Successful transactions:        6153
-Failed transactions:	           1
-Longest transaction:	       11.78
-Shortest transaction:	        0.94
+Transactions:		        6363 hits
+Availability:		       99.94 %
+Elapsed time:		       59.97 secs
+Data transferred:	      708.24 MB
+Response time:		        1.84 secs
+Transaction rate:	      106.10 trans/sec
+Throughput:		       11.81 MB/sec
+Concurrency:		      194.84
+Successful transactions:        6363
+Failed transactions:	           4
+Longest transaction:	       10.16
+Shortest transaction:	        0.95
  
 ** SIEGE 4.0.7
 ** Preparing 10 concurrent users for battle.
@@ -41,14 +43,14 @@ The server is now under siege...
 Lifting the server siege...
 Transactions:		         392 hits
 Availability:		      100.00 %
-Elapsed time:		       59.89 secs
+Elapsed time:		       59.91 secs
 Data transferred:	       42.38 MB
 Response time:		        1.51 secs
-Transaction rate:	        6.55 trans/sec
+Transaction rate:	        6.54 trans/sec
 Throughput:		        0.71 MB/sec
-Concurrency:		        9.90
+Concurrency:		        9.89
 Successful transactions:         392
 Failed transactions:	           0
-Longest transaction:	        3.03
-Shortest transaction:	        0.97
+Longest transaction:	        3.55
+Shortest transaction:	        0.96
  

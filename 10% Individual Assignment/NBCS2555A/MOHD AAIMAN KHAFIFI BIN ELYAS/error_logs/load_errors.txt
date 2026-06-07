@@ -3,36 +3,36 @@
 The server is now under siege...
 
 Lifting the server siege...
-Transactions:		        1985 hits
+Transactions:		        1991 hits
 Availability:		      100.00 %
-Elapsed time:		       59.43 secs
-Data transferred:	      212.65 MB
+Elapsed time:		       59.40 secs
+Data transferred:	      214.47 MB
 Response time:		        1.47 secs
-Transaction rate:	       33.40 trans/sec
-Throughput:		        3.58 MB/sec
-Concurrency:		       49.15
-Successful transactions:        1985
+Transaction rate:	       33.52 trans/sec
+Throughput:		        3.61 MB/sec
+Concurrency:		       49.27
+Successful transactions:        1991
 Failed transactions:	           0
-Longest transaction:	        4.38
-Shortest transaction:	        0.95
+Longest transaction:	        4.08
+Shortest transaction:	        0.94
  
 ** SIEGE 4.0.7
 ** Preparing 50 concurrent users for battle.
 The server is now under siege...
 
 Lifting the server siege...
-Transactions:		        1950 hits
+Transactions:		        1960 hits
 Availability:		      100.00 %
 Elapsed time:		       59.95 secs
-Data transferred:	      212.01 MB
+Data transferred:	      211.02 MB
 Response time:		        1.50 secs
-Transaction rate:	       32.53 trans/sec
-Throughput:		        3.54 MB/sec
-Concurrency:		       48.88
-Successful transactions:        1950
+Transaction rate:	       32.69 trans/sec
+Throughput:		        3.52 MB/sec
+Concurrency:		       49.09
+Successful transactions:        1960
 Failed transactions:	           0
-Longest transaction:	        6.78
-Shortest transaction:	        0.95
+Longest transaction:	        7.44
+Shortest transaction:	        0.94
  
 ** SIEGE 4.0.7
 ** Preparing 50 concurrent users for battle.
@@ -40,16 +40,16 @@ The server is now under siege...
 [[1;33merror[0m] Failed to make an SSL connection: 5: Connection reset by peer
 
 Lifting the server siege...
-Transactions:		        1804 hits
+Transactions:		        1806 hits
 Availability:		       99.89 %
 Elapsed time:		       59.96 secs
-Data transferred:	      207.16 MB
-Response time:		        1.64 secs
-Transaction rate:	       30.09 trans/sec
-Throughput:		        3.46 MB/sec
-Concurrency:		       49.20
-Successful transactions:        1804
+Data transferred:	      206.51 MB
+Response time:		        1.63 secs
+Transaction rate:	       30.12 trans/sec
+Throughput:		        3.44 MB/sec
+Concurrency:		       49.11
+Successful transactions:        1806
 Failed transactions:	           2
-Longest transaction:	        8.94
+Longest transaction:	        5.34
 Shortest transaction:	        0.96
  
