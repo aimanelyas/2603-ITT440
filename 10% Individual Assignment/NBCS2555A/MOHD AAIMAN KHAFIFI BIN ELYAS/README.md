@@ -1,20 +1,19 @@
 
 ![UiTM LOGO](gnuplot/pictures/UITM%20Logo.png)
 
-<div style="font-size: 1.17em; font-weight: bold; margin: 0; padding: 2px 0; align: centre">CDCS255<div>
-
-### BACHELOR OF COMPUTER SCINECE (HONS.) COMPUTER NETWORK
+### CDCS255
+### BACHELOR OF COMPUTER SCINECE (HONS.) COMPUTER NETWORK  
 
 ### ITT440
-### NETWORK PROGRAMMING
+### NETWORK PROGRAMMING  
 
 ### INDIVIDUAL ASSIGMENT
-### Load, Stress, and Spike Testing: Assessing Application Behavior on The-Internet HerokuApp using Siege and Gnuplot
+### Load, Stress, and Spike Testing: Assessing Application Behavior on The-Internet HerokuApp using Siege and Gnuplot  
 
-**Student:** Mohd A'aiman Khafifi Bin Elyas
-**Student ID:** 2024628922
-**Class:** NBCS2555A
-**Prepared For:** Shahadan Bin Saad
+**Student:** Mohd A'aiman Khafifi Bin Elyas  
+**Student ID:** 2024628922  
+**Class:** NBCS2555A  
+**Prepared For:** Shahadan Bin Saad  
 
 ---
 
