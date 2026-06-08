@@ -34,9 +34,9 @@
 
 ## 📋 1. Project Overview
 
-&emsp;This technical report details a comprehensive web performance testing suite conducted on the publicly accessible web application the-internet.herokuapp.com. The primary goal was to benchmark and contrast the behavioral differences between a standard web page (the root directory) and an intentionally latent endpoint (/slow) under varying simulated user loads. Utilizing **Siege** as the primary load-generation tool and **Gnuplot** for downstream data visualization, three distinct performance tests were executed: a Load Test, a Stress Test, and a Spike Test.
+&emsp;This technical report details a comprehensive web performance testing suite conducted on the publicly accessible web application the-internet.herokuapp.com. The primary goal was to benchmark and analyze the behavioral characteristics of the main web landing page (/) under varying simulated user loads. Utilizing Siege as the primary load-generation tool and Gnuplot for downstream data visualization, three distinct performance models were executed: a Load Test, a Stress Test, and a Spike Test.
 
-&emsp;The empirical evidence collected demonstrates that while the standard page maintains a relatively stable throughput curve, the /slow endpoint rapidly triggers a cascading failure under resource contention, manifesting in an exponential increase in response latency and an elevated error rate.
+&emsp;The empirical evidence collected demonstrates how the application's infrastructure scales across different traffic patterns. While the system manages baseline traffic stably, higher concurrency tiers trigger predictable resource contention, manifesting as an increase in peak response latency and an elevated rate of dropped connection errors as the host reaches its saturation threshold.
 
 ### 🎥 1.1 Project Presentation Video
 &emsp;A full walk-through of the test execution, configuration files, and live Gnuplot charts can be viewed on YouTube here:

@@ -14,3 +14,4 @@ set key box opaque font "Sans,9" top left
 # Column 5 = Avg Response Time, Column 11 = Longest Transaction, Column 10 = Failed Transactions
 plot "../results/load_test_final.csv" using 0:5 title "Average Response Time" with linespoints lw 2.5 lc rgb "#4169E1", \
      "../results/load_test_final.csv" using 0:11 title "Longest Transaction (Max Latency Boundary)" with linespoints lw 2 lc rgb "#DC143C" dt 2, \
+     
