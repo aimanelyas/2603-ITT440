@@ -48,13 +48,9 @@ https://youtu.be/9Ugu0dGVGr4
 
 &emsp;In modern software engineering, performance is an essential pillar of user experience and architectural stability. A system that functions perfectly under single-user conditions may suffer catastrophic degradation when subjected to simultaneous production traffic.
 
-&emsp;The objective of this assignment is to design, execute, and critically analyze a robust performance test plan. By testing the-internet.herokuapp.com, a benchmark environment representing typical web application structures, this study aims to evaluate system elasticity and identify specific architectural limitations. Specifically, this document presents a comparative analysis of:
+&emsp;The objective of this assignment is to design, execute, and critically analyze a robust performance test plan. By testing the-internet.herokuapp.com—a publicly available sandbox environment explicitly built as a benchmark representing typical web application structures—this study aims to evaluate system elasticity and identify specific architectural limitations.
 
-1. The Normal Page (/): Representing a lightweight, optimized modern landing page.
-
-2. The Slow Page (/slow): Representing an endpoint plagued by unoptimized backend processing, heavy database queries, or blocking synchronous network calls.
-
-&emsp;Through this investigation, we translate raw metrics into actionable engineering insights, validating how application design impacts infrastructure survival under load.
+&emsp;Specifically, this document presents an in-depth infrastructure evaluation of the primary main web landing page (/) across three distinct execution models: Load Testing, Stress Testing, and Spike Testing. Through this investigation, we translate raw metrics into actionable engineering insights, validating how the application's environment survives under various tiers of real-world volume.
 
 ---
 
